@@ -1,0 +1,236 @@
+*{
+   margin: 0;
+    font-family: Roboto,sans-serif;
+}
+.nav-bar{
+    height: 65px;
+    background-color: #333545;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+   
+    height: 130px;
+}
+.search-icon{
+    height: 37px;
+    width: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: gray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.search-bar{
+    display: flex;
+    align-items: center; 
+    width: 740px;
+}
+
+.place-bar{
+    width: 500px;
+    height: 35px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.kochi{
+    background-color: #333545;
+    border: none;
+    color: #CCCCCC;
+}
+
+.sign-in{
+    background-color: #F84464;
+    border: none;
+    width: 70px;
+    height: 25px;
+    color: white;
+    border-radius: 5px;
+}
+.menu{
+    color: white;
+}
+
+.panel{
+    height: 40px;
+    background-color: #1F2533;
+}
+
+.panel-lists{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    color: #CCCCCC;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.panel-lists p{
+    margin-left: 30px;
+}
+
+.offers{
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+}
+
+.offers p{
+    color: white;
+    font-size: 12px;
+}
+
+.hero-section{
+    background-image: url("images/hero.avif");
+    background-size: cover;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.hero-2{
+    display: flex;
+    justify-content: center;
+}
+.icc-img{
+    object-fit: contain;
+    height: 95px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.movies-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movies-head .main{
+    margin-left: 40px;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.movies-head .end{
+    margin-right: 60px;
+    color: #DC3558;
+    font-size: 14px;
+}
+
+.movie-flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+
+
+.movie-list{
+    height: 355px;
+    width: 208px;
+    object-fit: contain;
+    border: none;
+    border-radius: 20px;
+}
+
+.movie-name{
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+}
+.movie-genre{
+    color: #666666;
+    font-size: 16px;
+}
+
+
+
+.bottom{
+    height: 80px;
+    background-color: #333545;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.contact-btn{
+    margin-top: -66px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.hut-icon{
+    margin-left: 20px;
+}
+
+.para1{
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #FFFFFF ;
+    font-size: 16px;
+    font-weight: 700;
+}
+.para2{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.contact{
+    margin-top: -5px;
+    height: 35px;
+    width: 130px;
+    background-color: #F84464;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-bottom: 16px;
+}
+.panel-all{
+    height: 300px;
+    background-color: #333333;
+}
+.panel-1{
+   
+    display: flex;
+    justify-content: center
+}
+
+.foot-logo{
+    height: 150px;  
+}
+.social-logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icons{
+    height: 25px;
+    margin-left: 8px;
+}
+i{
+ font-size: 20px;
+ color:rgb(93, 93, 95);
+}
+
+.foot-panel3{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.foot-panel3 p{
+    color: #666666;
+    font-size: 11px;
+}
